@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<studenten>
+    <student>
+        <matrikelnummer>123456</matrikelnummer>
+        <name>Mustermann</name>
+        <vorname>Max - Emanuel</vorname>
+        <erreicht>86</erreicht>
+        <maximal>100</maximal>
+    </student>
+    <student>
+        <matrikelnummer>654321</matrikelnummer>
+        <name>Beispiel</name>
+        <vorname>Anna</vorname>
+        <erreicht>30</erreicht>
+        <maximal>50</maximal>
+    </student>
+    <student>
+            <matrikelnummer>123321</matrikelnummer>
+            <name>Mouse</name>
+            <vorname>Mickey</vorname>
+            <erreicht>10</erreicht>
+            <maximal>100</maximal>
+        </student>
+    <student>
+        <matrikelnummer>s99921</matrikelnummer>
+        <name>ABC</name>
+        <vorname>Def</vorname>
+        <erreicht>65</erreicht>
+        <maximal>80</maximal>
+    </student>
+</studenten>
