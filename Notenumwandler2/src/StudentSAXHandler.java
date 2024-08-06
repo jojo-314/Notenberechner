@@ -110,7 +110,9 @@ public class StudentSAXHandler extends DefaultHandler {
     //Punkte bis zur besseren Note berechnen
     private double berechnePunkte(int erreicht, int maximal) {
         double prozent = (double) erreicht / maximal;
-        if (prozent>=0.5){
+         if (prozent>=0.95) {
+            return 0.0;
+        }else if (prozent>=0.5){
             double exact = ((((prozent * 100)%5)-5)*(-1))* maximal/100;
             //Punkte runden
             double rounded = Math.round(exact * 100.0) / 100.0;
