@@ -20,7 +20,7 @@ XML Datei muss folgenden Aufbau haben:
          <vorname>Max</vorname>
          <erreicht>98</erreicht>
          <maximal>100</maximal>
->     </student>
+     </student>
 >  ...
 >  </studenten>
 
