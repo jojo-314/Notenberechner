@@ -24,7 +24,7 @@ XML Datei muss folgenden Aufbau haben:
   ...
   </studenten>
 
-Wobei "<studenten>" alle Einträge von "<student>" umfasst.
+Wobei >"<studenten>" alle Einträge von "<student>" umfasst.
 Die Matrikelnummer, sowie Vor- und Nachname kann ein beliebiger String sein.
 Erreicht und maximal müssen integer sein.
 
