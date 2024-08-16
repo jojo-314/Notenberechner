@@ -1,4 +1,4 @@
-Notenberechner
+#Notenberechner
 
 Dieses Projekt ist eine Anwendung zur Analyse von Studentendaten, die über eine XML-Datei eingelesen werden. 
 Es berechnet die Noten der Studierenden basierend auf ihren Klausurergebnissen. Außerdem gibt es die fehlenden Punkte zur Besseren Note an.
