@@ -12,8 +12,8 @@ Also im Beispiel "studenten.xml".
             saxParser.parse("studenten.xml", handler);
 
 XML Datei muss folgenden Aufbau haben:
-
-> <studenten>
+>
+ <studenten>
      <student>
          <matrikelnummer>abc123456</matrikelnummer>
          <name>Mustermann</name>
@@ -21,8 +21,8 @@ XML Datei muss folgenden Aufbau haben:
          <erreicht>98</erreicht>
          <maximal>100</maximal>
      </student>
- > ...
- > </studenten>
+  ...
+  </studenten>
 
 Wobei "<studenten>" alle Einträge von "<student>" umfasst.
 Die Matrikelnummer, sowie Vor- und Nachname kann ein beliebiger String sein.
