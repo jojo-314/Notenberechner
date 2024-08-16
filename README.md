@@ -13,20 +13,23 @@ Also im Beispiel "studenten.xml".
 
 XML Datei muss folgenden Aufbau haben:
 
-<studenten>
-    <student>
-        <matrikelnummer>abc123456</matrikelnummer>
-        <name>Mustermann</name>
-        <vorname>Max</vorname>
-        <erreicht>98</erreicht>
-        <maximal>100</maximal>
-    </student>
-  ...
-</studenten>
+ <studenten>
+     <student>
+         <matrikelnummer>abc123456</matrikelnummer>
+         <name>Mustermann</name>
+         <vorname>Max</vorname>
+         <erreicht>98</erreicht>
+         <maximal>100</maximal>
+     </student>
+   ...
+ </studenten>
 
 Wobei "<studenten>" alle Einträge von "<student>" umfasst.
 Die Matrikelnummer, sowie Vor- und Nachname kann ein beliebiger String sein.
 Erreicht und maximal müssen integer sein.
+
+Code der Main Methode und SAXHandler sind zu finden bei:
+    Notenumwandler/Notenumwandler2/src/
 
 Autor:
 Johanna Meißner
