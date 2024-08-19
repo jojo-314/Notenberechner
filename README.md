@@ -33,7 +33,7 @@ Wobei  `<studenten>` bzw. `</studenten>`alle Einträge von `<student>` umfasst.
 `<erreicht>` und `<maximal>` müssen Integer sein.
 
 Code der Main Methode und SAXHandler sind zu finden bei:
-    Notenumwandler/Notenumwandler2/src/
+    Notenberechner/Notenumwandler2/src/
 
 Autor:
 Johanna Meißner
